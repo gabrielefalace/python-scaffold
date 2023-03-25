@@ -125,5 +125,12 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+bin
+pyvenv.cfg
+.pytest_cache
+
 # Pyre type checker
 .pyre/
+
+.idea
+cosmic-ray-data.sqlite
