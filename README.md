@@ -1,5 +1,5 @@
-# data-playground
-playing out with data stuff
+# Generic Python Scaffold
+A python scaffold for whatever project
 
 
 # Installation
@@ -20,3 +20,4 @@ playing out with data stuff
    * Init: `cosmic-ray init cosmic-ray-config.toml cosmic-ray-data.sqlite`
    * Baseline: `cosmic-ray --verbosity=INFO baseline cosmic-ray-config.toml`
    * Run Mutations: `cosmic-ray exec cosmic-ray-config.toml cosmic-ray-data.sqlite`
+5. See mutation tests results: `cr-report cosmic-ray-data.sqlite --show-pending`
